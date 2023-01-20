@@ -1,0 +1,232 @@
+#title {
+    background-color: #ff4c68;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 3rem;
+    line-height: 1.7;
+}
+
+a {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+    padding-bottom: 150px;
+}
+
+.navbar-brand {
+    font-size: 2.4rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
+
+.nav-item {
+    padding-left: 2rem;
+}
+
+.nav-link:hover {
+    color: whitesmoke;
+    font-weight: bolder;
+}
+
+.box {
+    margin-top: 3rem;
+}
+
+.navbar {
+    padding-left: 0px;
+}
+
+.dwld-btn {
+    margin: 1.2rem 1rem 1rem 0;
+}
+
+.title-img {
+    width: 60%;
+    margin: 0rem auto;
+    transform: rotate(25deg);
+    position: absolute;
+}
+
+#features {
+    padding: 10% 15%;
+    background-color: white;
+    position: relative;
+}
+
+.text {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.text p {
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+#testimonials {
+    background-color: #ef8172;
+    text-align: center;
+    font-family: 'Ubuntu', serif;
+    font-size: 1rem;
+    font-weight: bold;
+    color: black;
+}
+
+.carousel-item {
+    padding: 3% 15%;
+    padding-bottom: 8rem;
+}
+
+em {
+    margin-left: 15px;
+}
+
+.testi-head {
+    color: white;
+    font-family: 'Merriweather', sans-serif;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+.testimonial-text {
+    color: white;
+    font-family: 'Merriweather', sans-serif;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 5rem;
+    margin-top: 2rem;
+}
+
+.dog-img {
+    width: 10%;
+    border-radius: 5rem;
+    margin-top: 2rem;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+}
+
+.press-img {
+    width: 20%;
+    padding: 3% 2%;
+}
+
+.card {
+    margin: 5%;
+}
+
+#pricing {
+    padding: 5% 5%;
+    text-align: center;
+}
+
+.price-head h2 {
+    font-family: "Poppins-Black", sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.price-head p {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 2;
+}
+
+.card-header h3 {
+    font-family: "Poppins", sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.card-body h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.card-body p {
+    font-family: 'Montserrat';
+    font-weight: lighter;
+}
+
+.card-body button {
+    font-family: 'Montserrat';
+    font-weight: lighter;
+}
+
+@media (max-width:1028px) {
+
+    .container-fluid {
+        padding-bottom: 50px;
+    }
+
+    #title {
+        text-align: center;
+    }
+
+    .title-img {
+        position: static;
+        transform: rotate(0deg);
+    }
+}
+
+#cta {
+    background-color: #ff4c68;
+    padding: 5% 15%;
+    text-align: center;
+}
+
+#cta h3 {
+    color: white;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+#cta button {
+    margin-top: 4rem;
+}
+
+#footer {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    font-size: 1.3rem;
+    font-family: 'Ubuntu';
+}
+
+.socio-icons {
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.align-text {
+    margin-top: 3rem;
+    line-height: 2;
+}
+
+#footer a {
+    color: #ff4c68;
+}
