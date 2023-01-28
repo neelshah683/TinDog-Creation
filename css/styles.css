@@ -230,3 +230,27 @@ em {
 #footer a {
     color: #ff4c68;
 }
+
+@media (max-width:550px)
+{
+     .carousel-item{
+        padding:10% 7%;
+        padding-bottom: 5rem;
+        text-align: center;
+     }
+     .testi-head, .testimonial-text{
+        font-size: 20px;
+     }
+     .dog-img, .testimonial-image, .press-img{
+        width: 20%;
+     }
+     #press{
+        padding-bottom: 2rem;
+     }
+     #cta{
+        padding: 25% 0;
+     }
+     #cta h3{
+        font-size: 2rem;
+     }
+}
